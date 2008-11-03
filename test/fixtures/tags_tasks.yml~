@@ -1,8 +1,0 @@
-one:
-  task_id: 1
-  tag_id: 1
-
-two:
-  task_id: 2
-  tag_id: 1
-
