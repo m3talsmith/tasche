@@ -16,6 +16,12 @@ class UserTest < ActiveSupport::TestCase
     assert contains_valid_users?(users), "No users were found: #{users}"
   end
   
+  def test_should_find_invalid_user_from_valid_list_of_users
+    users = User.find(:all)
+    users.push "a string that should throw the contains_valid_users? check"
+    assert !contains_valid_users?(users), "Method did not fail when it should have: #{users}"
+  end
+  
   def test_should_list_all_active_users
     users = User.active
     assert contains_valid_users?(users), "No active users were found: #{users}"
