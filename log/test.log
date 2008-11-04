@@ -5119,3 +5119,84 @@ Unable to load tags_task, underlying cause no such file to load -- tags_task
   [4;36;1mUser Load (0.000879)[0m   [0;1mSELECT * FROM "users" [0m
   [4;35;1mUser Load (0.000622)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
   [4;36;1mUser Update (0.000366)[0m   [0;1mUPDATE "users" SET "is_active" = 'f', "updated_at" = '2008-11-04 22:08:12' WHERE "id" = 1[0m
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/user_test.rb:9:in `require'
+./test/unit/user_test.rb:9
+-e:1:in `require'
+-e:1
+-e:1:in `each'
+-e:1
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/user_test.rb:9:in `require'
+./test/unit/user_test.rb:9
+-e:1:in `require'
+-e:1
+-e:1:in `each'
+-e:1
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/user_test.rb:9:in `require'
+./test/unit/user_test.rb:9
+-e:1:in `require'
+-e:1
+-e:1:in `each'
+-e:1
+  [4;36;1mUser Create (0.000629)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "is_active", "password", "email") VALUES('2008-11-04 22:11:30', '2008-11-04 22:11:30', 't', NULL, NULL)[0m
+  [4;35;1mUser Load (0.000693)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mProject Load (0.000685)[0m   [0;1mSELECT * FROM "projects" INNER JOIN "projects_users" ON "projects".id = "projects_users".project_id WHERE ("projects_users".user_id = 1 ) [0m
+  [4;35;1mSQL (0.000905)[0m   [0mDELETE FROM "projects_users" WHERE user_id = 1 AND project_id IN (1)[0m
+  [4;36;1mUser Destroy (0.000180)[0m   [0;1m DELETE FROM "users"
+ WHERE "id" = 1
+[0m
+  [4;35;1mUser Load (0.000632)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Load (0.000927)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."is_active" = 't') [0m
+  [4;35;1mUser Load (0.000674)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Update (0.000389)[0m   [0;1mUPDATE "users" SET "is_active" = 'f', "updated_at" = '2008-11-04 22:11:30' WHERE "id" = 1[0m
+  [4;35;1mUser Load (0.000586)[0m   [0mSELECT * FROM "users" WHERE ("users"."is_active" = 'f') [0m
+  [4;36;1mUser Load (0.000871)[0m   [0;1mSELECT * FROM "users" [0m
+  [4;35;1mUser Load (0.000604)[0m   [0mSELECT * FROM "users" LIMIT 1[0m
+  [4;36;1mUser Update (0.000378)[0m   [0;1mUPDATE "users" SET "is_active" = 'f', "updated_at" = '2008-11-04 22:11:30' WHERE "id" = 1[0m

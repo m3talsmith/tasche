@@ -58,8 +58,13 @@ class UserTest < ActiveSupport::TestCase
     end
     
     def contains_valid_users?(users)
-      user_list = []
-      user_list.push users ? users.first : users.class.to_s == "User"
-      return is_valid_user?(users.first)
+      has_valid_users = true
+      users.each do |user|
+        if !is_valid_user?(user)
+          has_valid_users = false
+          break
+        end
+      end
+      return has_valid_users
     end
 end
