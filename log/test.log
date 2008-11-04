@@ -1,0 +1,701 @@
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/tags_controller_test.rb:1:in `require'
+./test/functional/tags_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/tags_controller_test.rb:1:in `require'
+./test/functional/tags_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/tags_controller_test.rb:1:in `require'
+./test/functional/tags_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.001787)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001211)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001092)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001136)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001095)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001092)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001073)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001076)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001076)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20080916181716)
+  [4;35;1mSQL (0.001079)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTags (20080916181730)
+  [4;36;1mSQL (0.001093)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to TagsTasks (20080916181820)
+  [4;35;1mSQL (0.001077)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20081016173021)
+  [4;36;1mSQL (0.001059)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddUserIdToTasks (20081016173541)
+  [4;35;1mSQL (0.001069)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20081016174328)
+  [4;36;1mSQL (0.001071)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddTableProjectsUsers (20081016174647)
+  [4;35;1mSQL (0.001071)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTasks (20081024174724)
+  [4;36;1mSQL (0.001070)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000346)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.001087)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001114)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mPRAGMA index_list("forcetrueprojects_tasksfalse")[0m
+  [4;35;1mSQL (0.000155)[0m   [0mPRAGMA index_list("projects")[0m
+  [4;36;1mSQL (0.000183)[0m   [0;1mPRAGMA index_list("projects_users")[0m
+  [4;35;1mSQL (0.000160)[0m   [0mPRAGMA index_list("tags")[0m
+  [4;36;1mSQL (0.000155)[0m   [0;1mPRAGMA index_list("tags_tasks")[0m
+  [4;35;1mSQL (0.000151)[0m   [0mPRAGMA index_list("tasks")[0m
+  [4;36;1mSQL (0.000154)[0m   [0;1mPRAGMA index_list("users")[0m
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/tags_controller_test.rb:1:in `require'
+./test/functional/tags_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/tags_controller_test.rb:1:in `require'
+./test/functional/tags_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/tags_controller_test.rb:1:in `require'
+./test/functional/tags_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_task, underlying cause no such file to load -- projects_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load projects_user, underlying cause no such file to load -- projects_user 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+Unable to load tags_task, underlying cause no such file to load -- tags_task 
+
+ /opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `gem_original_require'
+/opt/local/lib/ruby/vendor_ruby/rubygems/custom_require.rb:27:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/project_test.rb:1:in `require'
+./test/unit/project_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5

@@ -11,16 +11,16 @@
 
 ActiveRecord::Schema.define(:version => 20081024174724) do
 
-  create_table "forcetrueprojects_tasksfalse", :force => true do |t|
-    t.integer "project_id"
-    t.integer "task_id"
-  end
-
   create_table "projects", :force => true do |t|
     t.string   "name"
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "projects_tasks", :id => false, :force => true do |t|
+    t.integer "project_id"
+    t.integer "task_id"
   end
 
   create_table "projects_users", :id => false, :force => true do |t|
