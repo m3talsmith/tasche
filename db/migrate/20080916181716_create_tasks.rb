@@ -2,6 +2,7 @@ class CreateTasks < ActiveRecord::Migration
   def self.up
     create_table :tasks do |t|
       t.string :name
+      t.text :description
       t.integer :priority
       t.timestamps
     end

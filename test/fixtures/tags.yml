@@ -1,7 +1,9 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+#create_table :tags do |t|
+#  t.string :name
+#  t.timestamps
+#end
 
-# one:
-#   column: value
-#
-# two:
-#   column: value
+one:
+  id: 1
+  name: install
+

@@ -1,7 +1,21 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+# create_table "tasks", :force => true do |t|
+#   t.string   "name"
+#   t.text     "description"
+#   t.integer  "priority"
+#   t.datetime "created_at"
+#   t.datetime "updated_at"
+#   t.integer  "user_id"
+# end
 
-# one:
-#   column: value
-#
-# two:
-#   column: value
+one:
+  id: 1
+  name: initial setup
+  description: initiate all the data we need to run test on the project
+  priority: 1
+
+two:
+  id: 2
+  name: cleanup
+  description: cleanup after test have been run
+  priority: 2
+
