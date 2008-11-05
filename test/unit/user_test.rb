@@ -48,6 +48,16 @@ class UserTest < ActiveSupport::TestCase
     assert user.update_attributes(:is_active => false), "User was not updated: #{user}"
   end
   
+  def test_should_have_project_relationships
+    user = User.find(1)
+    assert user.projects, "User/Project relationship is broken: #{user.projects}"
+  end
+  
+  def test_should_have_one_or_more_projects
+    user = User.find(1)
+    assert user.projects.length > 0, "User does not have any projects attached: #{user.projects}"
+  end
+  
   def test_should_destroy_user
     user = User.find(:first)
     assert user.destroy, "User was not destroyed: #{user}"
