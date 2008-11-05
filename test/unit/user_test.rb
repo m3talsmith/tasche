@@ -13,28 +13,28 @@ class UserTest < ActiveSupport::TestCase
   
   def test_should_list_all_users
     users = User.find(:all)
-    assert contains_valid_users?(users), "No users were found: #{users}"
+    assert contains_valid_classes?("User", users), "No users were found: #{users}"
   end
   
   def test_should_find_invalid_user_from_valid_list_of_users
     users = User.find(:all)
     users.push "a string that should throw the contains_valid_users? check"
-    assert !contains_valid_users?(users), "Method did not fail when it should have: #{users}"
+    assert !contains_valid_classes?("User", users), "Method did not fail when it should have: #{users}"
   end
   
   def test_should_list_all_active_users
     users = User.active
-    assert contains_valid_users?(users), "No active users were found: #{users}"
+    assert contains_valid_classes?("User", users), "No active users were found: #{users}"
   end
   
   def test_should_list_all_inactive_users
     User.find(:first).update_attributes(:is_active => false)
     users = User.inactive
-    assert contains_valid_users?(users), "No inactive users were found: #{users}"
+    assert contains_valid_classes?("User", users), "No inactive users were found: #{users}"
   end
   
   def test_should_create_user
-    user = create
+    user = create("User")
     assert user.valid?, "User was not created: #{user}"
   end
   
@@ -62,25 +62,4 @@ class UserTest < ActiveSupport::TestCase
     user = User.find(:first)
     assert user.destroy, "User was not destroyed: #{user}"
   end
-  
-  private
-    
-    def create(options={})
-      User.create({}.merge(options))
-    end
-    
-    def is_valid_user?(user)
-      return (user.class.to_s == "User")
-    end
-    
-    def contains_valid_users?(users)
-      has_valid_users = true
-      users.each do |user|
-        if !is_valid_user?(user)
-          has_valid_users = false
-          break
-        end
-      end
-      return has_valid_users
-    end
 end
