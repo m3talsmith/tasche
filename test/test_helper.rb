@@ -35,4 +35,25 @@ class Test::Unit::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+  
+  private
+  
+    def create(class_name = "Object", options = {})
+      eval(class_name).create(options)
+    end
+    
+    def is_valid_class?(expected_class = "Object", class_item = Object.new)
+      return (class_item.class.to_s == expected_class.to_s)
+    end
+    
+    def contains_valid_classes?(expected_class = "Object", class_items = [])
+      has_valid_class = true
+      class_items.each do |class_item|
+        if !is_valid_class?(expected_class, class_item)
+          has_valid_class = false
+          break
+        end
+      end
+      return has_valid_class
+    end
 end
