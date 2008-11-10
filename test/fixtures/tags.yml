@@ -1,9 +1,3 @@
-#create_table :tags do |t|
-#  t.string :name
-#  t.timestamps
-#end
-
 one:
   id: 1
   name: install
-

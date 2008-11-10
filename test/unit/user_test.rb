@@ -13,7 +13,7 @@ class UserTest < ActiveSupport::TestCase
   
   def test_should_list_all_users
     users = User.find(:all)
-    assert contains_valid_classes?("User", users), "No users were found: #{users}"
+    assert users.each {|user| user.is_a?(User)}, "No users were found: #{users}"
   end
   
   def test_should_find_invalid_user_from_valid_list_of_users
