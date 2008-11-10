@@ -662,3 +662,441 @@ Migrating to ProjectsTasks (20081024174724)
   [4;36;1mSQL (0.000306)[0m   [0;1mPRAGMA index_list("tags_tasks")[0m
   [4;35;1mSQL (0.000325)[0m   [0mPRAGMA index_list("tasks")[0m
   [4;36;1mSQL (0.000325)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.003851)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001611)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001524)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001504)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001523)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001521)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001540)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001529)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001503)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20080916181716)
+  [4;35;1mSQL (0.001528)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTags (20080916181730)
+  [4;36;1mSQL (0.001566)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to TagsTasks (20080916181820)
+  [4;35;1mSQL (0.001553)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20081016173021)
+  [4;36;1mSQL (0.001526)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddUserIdToTasks (20081016173541)
+  [4;35;1mSQL (0.001512)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20081016174328)
+  [4;36;1mSQL (0.001515)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddTableProjectsUsers (20081016174647)
+  [4;35;1mSQL (0.001514)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTasks (20081024174724)
+  [4;36;1mSQL (0.001520)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000780)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.001570)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001603)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000352)[0m   [0;1mPRAGMA index_list("forcetrueprojects_tasksfalse")[0m
+  [4;35;1mSQL (0.000366)[0m   [0mPRAGMA index_list("projects")[0m
+  [4;36;1mSQL (0.000319)[0m   [0;1mPRAGMA index_list("projects_users")[0m
+  [4;35;1mSQL (0.000323)[0m   [0mPRAGMA index_list("tags")[0m
+  [4;36;1mSQL (0.000848)[0m   [0;1mPRAGMA index_list("tags_tasks")[0m
+  [4;35;1mSQL (0.000350)[0m   [0mPRAGMA index_list("tasks")[0m
+  [4;36;1mSQL (0.000351)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;36;1mTask Load (0.004660)[0m   [0;1mSELECT * FROM "tasks" [0m
+  [4;35;1mProject Load (0.001081)[0m   [0mSELECT * FROM "projects" [0m
+  [4;36;1mProject Load (0.011803)[0m   [0;1mSELECT * FROM "projects" [0m
+  [4;36;1mSQL (0.003874)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001629)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001485)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001522)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001483)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001509)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001507)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001475)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001488)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20080916181716)
+  [4;35;1mSQL (0.001537)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTags (20080916181730)
+  [4;36;1mSQL (0.001542)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to TagsTasks (20080916181820)
+  [4;35;1mSQL (0.001528)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20081016173021)
+  [4;36;1mSQL (0.001533)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddUserIdToTasks (20081016173541)
+  [4;35;1mSQL (0.001531)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20081016174328)
+  [4;36;1mSQL (0.001494)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddTableProjectsUsers (20081016174647)
+  [4;35;1mSQL (0.001513)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTasks (20081024174724)
+  [4;36;1mSQL (0.001506)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000768)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.001556)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001604)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000344)[0m   [0;1mPRAGMA index_list("forcetrueprojects_tasksfalse")[0m
+  [4;35;1mSQL (0.000395)[0m   [0mPRAGMA index_list("projects")[0m
+  [4;36;1mSQL (0.000315)[0m   [0;1mPRAGMA index_list("projects_users")[0m
+  [4;35;1mSQL (0.000324)[0m   [0mPRAGMA index_list("tags")[0m
+  [4;36;1mSQL (0.000323)[0m   [0;1mPRAGMA index_list("tags_tasks")[0m
+  [4;35;1mSQL (0.000328)[0m   [0mPRAGMA index_list("tasks")[0m
+  [4;36;1mSQL (0.000346)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mProject Load (0.015497)[0m   [0mSELECT * FROM "projects" [0m
+  [4;36;1mSQL (0.001561)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000791)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.079055)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.066011)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000900)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000621)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000508)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000497)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000501)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000489)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000487)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000483)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000496)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20080916181716)
+  [4;35;1mSQL (0.000540)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.081376)[0m   [0;1mCREATE TABLE "tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT NULL NULL, "description" text DEFAULT NULL NULL, "priority" integer DEFAULT NULL NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.048411)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080916181716')[0m
+Migrating to CreateTags (20080916181730)
+  [4;36;1mSQL (0.000863)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.067876)[0m   [0mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT NULL NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.046949)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080916181730')[0m
+Migrating to TagsTasks (20080916181820)
+  [4;35;1mSQL (0.001062)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.093521)[0m   [0;1mCREATE TABLE "tags_tasks" ("tag_id" integer DEFAULT NULL NULL, "task_id" integer DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.051051)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20080916181820')[0m
+Migrating to CreateUsers (20081016173021)
+  [4;36;1mSQL (0.001036)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.075581)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT NULL NULL, "password" varchar(255) DEFAULT NULL NULL, "is_active" boolean DEFAULT 't' NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.050390)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081016173021')[0m
+Migrating to AddUserIdToTasks (20081016173541)
+  [4;35;1mSQL (0.001136)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.051706)[0m   [0;1mALTER TABLE "tasks" ADD "user_id" integer[0m
+  [4;35;1mSQL (0.071793)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (0.052585)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081016173541')[0m
+Migrating to CreateProjects (20081016174328)
+  [4;35;1mSQL (0.001260)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.062546)[0m   [0;1mCREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT NULL NULL, "description" text DEFAULT NULL NULL, "created_at" datetime DEFAULT NULL NULL, "updated_at" datetime DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.069250)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20081016174328')[0m
+Migrating to AddTableProjectsUsers (20081016174647)
+  [4;36;1mSQL (0.001363)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.070505)[0m   [0mCREATE TABLE "projects_users" ("project_id" integer DEFAULT NULL NULL, "user_id" integer DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.055899)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081016174647')[0m
+Migrating to ProjectsTasks (20081024174724)
+  [4;35;1mSQL (0.001460)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001553)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.076843)[0m   [0mCREATE TABLE "projects_tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "project_id" integer DEFAULT NULL NULL, "task_id" integer DEFAULT NULL NULL) [0m
+  [4;36;1mSQL (0.065267)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081024174724')[0m
+  [4;35;1mSQL (0.001598)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001684)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000368)[0m   [0mPRAGMA index_list("projects")[0m
+  [4;36;1mSQL (0.000361)[0m   [0;1mPRAGMA index_list("projects_tasks")[0m
+  [4;35;1mSQL (0.000311)[0m   [0mPRAGMA index_list("projects_users")[0m
+  [4;36;1mSQL (0.000325)[0m   [0;1mPRAGMA index_list("tags")[0m
+  [4;35;1mSQL (0.000309)[0m   [0mPRAGMA index_list("tags_tasks")[0m
+  [4;36;1mSQL (0.000333)[0m   [0;1mPRAGMA index_list("tasks")[0m
+  [4;35;1mSQL (0.000360)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mProject Load (0.001800)[0m   [0;1mSELECT * FROM "projects" [0m
+  [4;35;1mProject Load (0.001148)[0m   [0mSELECT * FROM "projects" [0m
+  [4;36;1mTask Load (0.003055)[0m   [0;1mSELECT * FROM "tasks" INNER JOIN "projects_tasks" ON "tasks".id = "projects_tasks".task_id WHERE ("projects_tasks".project_id = 1 ) [0m
+  [4;35;1mTask Load (0.001508)[0m   [0mSELECT * FROM "tasks" [0m
+  [4;36;1mTask Load (0.003555)[0m   [0;1mSELECT * FROM "tasks" [0m
+  [4;36;1mSQL (0.003823)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003832)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003853)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004925)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003815)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003840)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001604)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001532)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001505)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001562)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001490)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001524)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001500)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001497)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20080916181716)
+  [4;35;1mSQL (0.001541)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTags (20080916181730)
+  [4;36;1mSQL (0.001494)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to TagsTasks (20080916181820)
+  [4;35;1mSQL (0.001593)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20081016173021)
+  [4;36;1mSQL (0.001495)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddUserIdToTasks (20081016173541)
+  [4;35;1mSQL (0.001499)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20081016174328)
+  [4;36;1mSQL (0.001518)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddTableProjectsUsers (20081016174647)
+  [4;35;1mSQL (0.001484)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTasks (20081024174724)
+  [4;36;1mSQL (0.001531)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTags (20081105185656)
+  [4;35;1mSQL (0.001490)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000724)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.001656)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.078458)[0m   [0;1mCREATE TABLE "projects_tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "project_id" integer DEFAULT NULL NULL, "tag_id" integer DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.065584)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20081105185656')[0m
+  [4;36;1mSQL (0.001757)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001697)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000382)[0m   [0;1mPRAGMA index_list("projects")[0m
+  [4;35;1mSQL (0.000305)[0m   [0mPRAGMA index_list("projects_tags")[0m
+  [4;36;1mSQL (0.000293)[0m   [0;1mPRAGMA index_list("projects_tasks")[0m
+  [4;35;1mSQL (0.000296)[0m   [0mPRAGMA index_list("projects_users")[0m
+  [4;36;1mSQL (0.000329)[0m   [0;1mPRAGMA index_list("tags")[0m
+  [4;35;1mSQL (0.000335)[0m   [0mPRAGMA index_list("tags_tasks")[0m
+  [4;36;1mSQL (0.000334)[0m   [0;1mPRAGMA index_list("tasks")[0m
+  [4;35;1mSQL (0.000331)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mTask Load (0.003649)[0m   [0;1mSELECT * FROM "tasks" [0m
+  [4;36;1mSQL (0.003990)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001718)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001577)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001609)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001573)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001600)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001616)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001566)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001602)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001581)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20080916181716)
+  [4;36;1mSQL (0.001635)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTags (20080916181730)
+  [4;35;1mSQL (0.001622)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to TagsTasks (20080916181820)
+  [4;36;1mSQL (0.001584)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20081016173021)
+  [4;35;1mSQL (0.001610)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddUserIdToTasks (20081016173541)
+  [4;36;1mSQL (0.001580)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20081016174328)
+  [4;35;1mSQL (0.001573)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddTableProjectsUsers (20081016174647)
+  [4;36;1mSQL (0.001593)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTasks (20081024174724)
+  [4;35;1mSQL (0.001582)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTags (20081105185656)
+  [4;36;1mSQL (0.001609)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000752)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.001636)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001708)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000350)[0m   [0;1mPRAGMA index_list("projects")[0m
+  [4;35;1mSQL (0.000313)[0m   [0mPRAGMA index_list("projects_tags")[0m
+  [4;36;1mSQL (0.000301)[0m   [0;1mPRAGMA index_list("projects_tasks")[0m
+  [4;35;1mSQL (0.000300)[0m   [0mPRAGMA index_list("projects_users")[0m
+  [4;36;1mSQL (0.000316)[0m   [0;1mPRAGMA index_list("tags")[0m
+  [4;35;1mSQL (0.000294)[0m   [0mPRAGMA index_list("tags_tasks")[0m
+  [4;36;1mSQL (0.000320)[0m   [0;1mPRAGMA index_list("tasks")[0m
+  [4;35;1mSQL (0.000339)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mTask Load (0.003661)[0m   [0;1mSELECT * FROM "tasks" [0m
+  [4;35;1mProject Load (0.002248)[0m   [0mSELECT * FROM "projects" [0m
+  [4;36;1mTag Load (0.001075)[0m   [0;1mSELECT * FROM "tags" [0m
+  [4;36;1mSQL (0.005575)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004010)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004050)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.001715)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001633)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001605)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001587)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001633)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001606)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001611)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001600)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001588)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20080916181716)
+  [4;36;1mSQL (0.001694)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTags (20080916181730)
+  [4;35;1mSQL (0.001619)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to TagsTasks (20080916181820)
+  [4;36;1mSQL (0.001637)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20081016173021)
+  [4;35;1mSQL (0.001626)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddUserIdToTasks (20081016173541)
+  [4;36;1mSQL (0.001596)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20081016174328)
+  [4;35;1mSQL (0.001627)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to AddTableProjectsUsers (20081016174647)
+  [4;36;1mSQL (0.001602)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTasks (20081024174724)
+  [4;35;1mSQL (0.001598)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTags (20081105185656)
+  [4;36;1mSQL (0.001632)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to TagsUsers (20081107182200)
+  [4;35;1mSQL (0.001607)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000728)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.001773)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.083294)[0m   [0;1mCREATE TABLE "tags_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer DEFAULT NULL NULL, "user_id" integer DEFAULT NULL NULL) [0m
+  [4;35;1mSQL (0.065547)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20081107182200')[0m
+  [4;36;1mSQL (0.001922)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001832)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000387)[0m   [0;1mPRAGMA index_list("projects")[0m
+  [4;35;1mSQL (0.000317)[0m   [0mPRAGMA index_list("projects_tags")[0m
+  [4;36;1mSQL (0.000306)[0m   [0;1mPRAGMA index_list("projects_tasks")[0m
+  [4;35;1mSQL (0.000311)[0m   [0mPRAGMA index_list("projects_users")[0m
+  [4;36;1mSQL (0.000355)[0m   [0;1mPRAGMA index_list("tags")[0m
+  [4;35;1mSQL (0.000308)[0m   [0mPRAGMA index_list("tags_tasks")[0m
+  [4;36;1mSQL (0.000364)[0m   [0;1mPRAGMA index_list("tags_users")[0m
+  [4;35;1mSQL (0.000331)[0m   [0mPRAGMA index_list("tasks")[0m
+  [4;36;1mSQL (0.000335)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.004165)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.002868)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001709)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001684)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001705)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001701)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001672)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001701)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001661)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001733)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001665)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateTasks (20080916181716)
+  [4;35;1mSQL (0.001700)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTags (20080916181730)
+  [4;36;1mSQL (0.001715)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to TagsTasks (20080916181820)
+  [4;35;1mSQL (0.001680)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20081016173021)
+  [4;36;1mSQL (0.001682)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddUserIdToTasks (20081016173541)
+  [4;35;1mSQL (0.001711)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20081016174328)
+  [4;36;1mSQL (0.001694)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddTableProjectsUsers (20081016174647)
+  [4;35;1mSQL (0.001683)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTasks (20081024174724)
+  [4;36;1mSQL (0.003221)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to ProjectsTags (20081105185656)
+  [4;35;1mSQL (0.002096)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to TagsUsers (20081107182200)
+  [4;36;1mSQL (0.001702)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000743)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.001752)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001780)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000353)[0m   [0;1mPRAGMA index_list("projects")[0m
+  [4;35;1mSQL (0.000334)[0m   [0mPRAGMA index_list("projects_tags")[0m
+  [4;36;1mSQL (0.000308)[0m   [0;1mPRAGMA index_list("projects_tasks")[0m
+  [4;35;1mSQL (0.000302)[0m   [0mPRAGMA index_list("projects_users")[0m
+  [4;36;1mSQL (0.000342)[0m   [0;1mPRAGMA index_list("tags")[0m
+  [4;35;1mSQL (0.000296)[0m   [0mPRAGMA index_list("tags_tasks")[0m
+  [4;36;1mSQL (0.000301)[0m   [0;1mPRAGMA index_list("tags_users")[0m
+  [4;35;1mSQL (0.000317)[0m   [0mPRAGMA index_list("tasks")[0m
+  [4;36;1mSQL (0.000343)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;36;1mTag Load (0.003222)[0m   [0;1mSELECT * FROM "tags" [0m
+  [4;35;1mUser Load (0.001484)[0m   [0mSELECT * FROM "users" [0m
+  [4;36;1mTag Load (0.001028)[0m   [0;1mSELECT * FROM "tags" [0m
+  [4;35;1mProject Load (0.001104)[0m   [0mSELECT * FROM "projects" [0m
+  [4;36;1mTask Load (0.001485)[0m   [0;1mSELECT * FROM "tasks" [0m
+  [4;36;1mSQL (0.004213)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004167)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004195)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004195)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004199)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004178)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004228)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.005246)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004259)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004221)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.004196)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
