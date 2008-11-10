@@ -1,12 +1,3 @@
-# create_table "tasks", :force => true do |t|
-#   t.string   "name"
-#   t.text     "description"
-#   t.integer  "priority"
-#   t.datetime "created_at"
-#   t.datetime "updated_at"
-#   t.integer  "user_id"
-# end
-
 one:
   id: 1
   name: initial setup
@@ -18,4 +9,3 @@ two:
   name: cleanup
   description: cleanup after test have been run
   priority: 2
-
