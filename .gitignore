@@ -3,5 +3,6 @@ log/*.log
 tmp/**/*
 db/*.sqlite3
 db/schema.rb
+db/*.sql
 coverage
 doc/app/*
