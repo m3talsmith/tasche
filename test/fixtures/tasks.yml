@@ -1,4 +1,3 @@
-<<<<<<< HEAD:test/fixtures/tasks.yml
 # create_table "tasks", :force => true do |t|
 #   t.string   "name"
 #   t.text     "description"
@@ -8,8 +7,6 @@
 #   t.integer  "user_id"
 # end
 
-=======
->>>>>>> origin/development:test/fixtures/tasks.yml
 one:
   id: 1
   name: initial setup
@@ -21,7 +18,3 @@ two:
   name: cleanup
   description: cleanup after test have been run
   priority: 2
-<<<<<<< HEAD:test/fixtures/tasks.yml
-
-=======
->>>>>>> origin/development:test/fixtures/tasks.yml
