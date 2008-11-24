@@ -62,4 +62,8 @@ class UserTest < ActiveSupport::TestCase
     user = User.find(:first)
     assert user.destroy, "User was not destroyed: #{user}"
   end
+  def test_user_has_tags
+    user = User.find :first
+    assert user.tags.length > 0, "we couldn't find any tasks for users"
+  end
 end

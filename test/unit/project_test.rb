@@ -12,4 +12,12 @@ class ProjectTest < ActiveSupport::TestCase
     assert project.users.length > 0, "we couldn't find any users for a project"
     assert project.users.each {|user| user.is_a? User}, "couldn't find a valid user"
   end
+  def test_project_has_tasks
+    project = Project.find :first
+    assert project.tasks.length > 0, "we couldn't find any tasks for the project"
+  end
+  def test_project_has_tags
+    project = Project.find :first
+    assert project.tags.length > 0, "we couldn't find any tags for the project"
+  end
 end
