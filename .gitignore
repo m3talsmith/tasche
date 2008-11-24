@@ -6,3 +6,6 @@ db/schema.rb
 db/*.sql
 coverage
 doc/app/*
+*~
+**/*~
+**/**/*~
