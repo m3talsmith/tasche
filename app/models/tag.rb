@@ -1,6 +1,22 @@
 class Tag < ActiveRecord::Base
-  has_and_belongs_to_many :tasks
-  has_and_belongs_to_many :projects
-  has_and_belongs_to_many :users
-  has_one :tag_object, :as => :resource
+  belongs_to :taggable, :polymorphic => true
+  
+  def users
+    find_taggable_class("User")
+  end
+  
+  def projects
+    find_taggable_class("Project")
+  end
+  
+  def tasks
+    find_taggable_class("Task")
+  end
+  
+  private
+    def find_taggable_class(taggable_class = "Project")
+      Tag.find(:all, :conditions => {:taggable_type => taggable_class.to_s.capitalize}).collect do |tag|
+        eval(taggable_class.to_s).find(tag.taggable_id)
+      end
+    end
 end

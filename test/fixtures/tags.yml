@@ -1,3 +1,29 @@
 one:
   id: 1
   name: install
+  taggable_id: 1
+  taggable_type: Project
+
+two:
+  id: 2
+  name: install
+  taggable_id: 1
+  taggable_type: Task
+
+three:
+  id: 3
+  name: install
+  taggable_id: 2
+  taggable_type: Task
+
+four:
+  id: 4
+  name: install
+  taggable_id: 1
+  taggable_type: User
+
+five:
+  id: 5
+  name: install
+  taggable_id: 2
+  taggable_type: User
