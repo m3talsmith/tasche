@@ -10,4 +10,12 @@ class TaskTest < ActiveSupport::TestCase
     task = Task.find :all
     assert task.length > 0, "we could not find any tasks"
   end
+  def test_task_has_projects
+    task = Task.find :first
+    assert task.projects.length > 0, "we couldn't find any projects for task"
+  end
+  #def test_has_many_users
+    #task = Task.find :first
+    #assert task.users.length is > 0, " we couldn't fin any users for tasks"
+  #end
 end

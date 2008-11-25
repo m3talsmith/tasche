@@ -66,4 +66,8 @@ class UserTest < ActiveSupport::TestCase
     user = User.find :first
     assert user.tags.length > 0, "we couldn't find any tasks for users"
   end
+  #def test_user_has_tasks
+    #user = User.find :first
+    #assert user.tasks.length > 0, "we couldn't find any task for users"
+  #end
 end
