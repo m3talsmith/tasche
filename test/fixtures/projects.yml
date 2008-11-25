@@ -1,9 +1,0 @@
-one:
-  id: 1
-  name: Tasche install
-  description: This is the intial project to get Tasche installed and working properly.
-
-two:
-  id: 2
-  name: Tasche fix bugs/cleanup
-  description: This is a project to get tasche running with no bugs.
