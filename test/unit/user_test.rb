@@ -1,11 +1,3 @@
-# create_table "users", :force => true do |t|
-#   t.string   "email"
-#   t.string   "password"
-#   t.boolean  "is_active",  :default => true
-#   t.datetime "created_at"
-#   t.datetime "updated_at"
-# end
-
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
@@ -62,12 +54,14 @@ class UserTest < ActiveSupport::TestCase
     user = User.find(:first)
     assert user.destroy, "User was not destroyed: #{user}"
   end
+  
   def test_user_has_tags
     user = User.find :first
     assert user.tags.length > 0, "we couldn't find any tasks for users"
   end
-  #def test_user_has_tasks
-    #user = User.find :first
-    #assert user.tasks.length > 0, "we couldn't find any task for users"
-  #end
+  
+  def test_user_has_tasks
+    user = User.find :first
+    assert user.tasks.length > 0, "we couldn't find any task for users"
+  end
 end
