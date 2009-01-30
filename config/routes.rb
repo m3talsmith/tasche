@@ -1,11 +1,16 @@
 ActionController::Routing::Routes.draw do |map|
 
 # -- Users Routes -- #
-  map.resources :users do |user|
+  map.resources :users, 
+    :collection => {
+      :signup => :get,
+    } do |user|
     user.resources :projects
     user.resources :tags
     user.resources :tasks
   end
+  
+  map.resources :user_sessions
 
 # -- Projects Routes -- #
   map.resources :projects do |project|
