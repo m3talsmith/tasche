@@ -1,7 +1,11 @@
 ActionController::Routing::Routes.draw do |map|
 
 # -- Users Routes -- #
-  map.resources :users do |user|
+  map.resources :users,
+    :collection => {
+      :login        => :get,
+      :authenticate => :post
+    } do |user|
     user.resources :projects
     user.resources :tags
     user.resources :tasks

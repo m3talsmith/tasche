@@ -12,11 +12,28 @@ class ApplicationController < ActionController::Base
   # Uncomment this to filter the contents of submitted sensitive data parameters
   # from your application log (in this case, all fields with names like "password"). 
   # filter_parameter_logging :password
-  before_filter :force_login, :except => [:public,:signup]
+  helper_method :current_user_session, :current_user
+  
+  before_filter :force_login, :except => [:login, :authenticate]
   
   private
+    def current_user_session
+      if !session[:expiry_time].nil? and session[:expiry_time] < Time.now
+          # Session has expired. Clear the current session.
+          reset_session
+       end
+
+       # Assign a new expiry time, whether the session has expired or not.
+       session[:expiry_time] = MAX_SESSION_TIME.seconds.from_now
+       return true
+    end
+    
+    def current_user
+      @current_user = session[:user_id] != nil ? User.find(session[:user_id]) : nil
+      return @current_user
+    end
     
     def force_login
-      redirect_to new_user_session_path unless current_user
+      redirect_to login_users_path unless current_user
     end
 end
