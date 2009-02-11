@@ -1,24 +1,11 @@
 class UsersController < ApplicationController
   def authenticate
-    open_id_user = try_login(params[:user][:openid_identifier])
-    if open_id_user
-      user = User.find(:first, :conditions => {:identity_url => params[:user][:openid_identity]})
-      if user
-        session[:user_id] = user.id
-        redirect_to user_url(user.id)
-      else 
-        user = User.create(:identity_url => params[:user][:openid_identity])
-        redirect_to user_profile_url(user.id)
-      end
-    else
-      redirect_to users_open_id_signup_url
-    end
+    try_login(params[:user] ? params[:user][:openid_identifier] : params["openid.identity"])
   end
   
-  def index
-  end
-  
-  def signup
+  def logout
+    reset_session
+    redirect_to root_path
   end
   
   private
@@ -28,10 +15,19 @@ class UsersController < ApplicationController
         logger.debug("\t\tMessage from openid provider: #{result.message}\n\t\tIdentity URL: #{identity_url}")
         if result.successful?
           user = User.find_by_identity_url(identity_url)
-          return user
+          if user
+            logger.debug("\t\tUser found for openid #{identity_url} . Logged in")
+            session[:user_id] = user.id
+            redirect_to user_url(user.id)
+          else
+            logger.debug("\t\tUser NOT found for openid #{identity_url} . Creating user.")
+            user = User.create(:identity_url => identity_url)
+            session[:user_id] = user.id
+            redirect_to profile_user_url(user.id)
+          end
         else
-          return nil
-          # failed_login(result.message || "Sorry, no user by that identity URL exists (#{identity_url})")
+          logger.debug("\t\tOpenid #{identity_url} NOT found. Redirect to Signup")
+          redirect_to signup_users_path
         end
       end
     end
