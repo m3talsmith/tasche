@@ -4,7 +4,12 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :users,
     :collection => {
       :login        => :get,
-      :authenticate => :post
+      :authenticate => :post,
+      :logout       => :get,
+      :signup       => :get
+    },
+    :member     => {
+      :profile      => :get
     } do |user|
     user.resources :projects
     user.resources :tags
