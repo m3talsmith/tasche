@@ -1,1 +1,4 @@
 %h1#title Welcome to Tasche
+
+- if @current_user
+  = render :partial => "shared/menu"

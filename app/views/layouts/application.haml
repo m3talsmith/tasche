@@ -1,13 +1,17 @@
 %html
+
   %head
     %title Tasche
+    
   %body
-    - flash.each do |key, value|
-      %div{:class => key}= value
+      
     #header
       = render :partial => "shared/header"
 
     #content
+      - flash.each do |key, value|
+        %div{:class => key}= value
+        
       = yield :signup
       = yield
     

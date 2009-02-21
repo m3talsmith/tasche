@@ -1,7 +1,8 @@
 - content_for :signup do
   = render :partial => "shared/signup"
   
-login
+.login
+  %h2 Login
   - form_for :user, :url => authenticate_users_path, :html => {:method => :post} do |f|
     = f.error_messages
     = label_tag "OpenID"

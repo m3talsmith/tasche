@@ -1,0 +1,3 @@
+.project
+  .name= project_summary.name
+  .description= truncate(project_summary.description, :omission => link_to(" .. (view project)", project_path(project_summary.id)), :length => 30)

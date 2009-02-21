@@ -1,0 +1,6 @@
+%h1 Projects
+
+.new_action= link_to "create a new project", new_project_path
+
+.projects
+  = render :partial => "project_summary", :collection => @projects
