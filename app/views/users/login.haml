@@ -1,9 +1,14 @@
-- form_for :user, :url => authenticate_users_path, :html => {:method => :post} do |f|
-  = f.error_messages
-  = label_tag "OpenID"
-  %br
-  = text_field_tag "user[openid_identifier]"
-  %br
-  %br
+- content_for :signup do
+  = render :partial => "shared/signup"
   
-  = f.submit " login "
+login
+  - form_for :user, :url => authenticate_users_path, :html => {:method => :post} do |f|
+    = f.error_messages
+    = label_tag "OpenID"
+    %br
+    = text_field_tag "user[openid_identifier]"
+    %br
+    %br
+    
+    = f.submit " login "
+  

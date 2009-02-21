@@ -6,11 +6,10 @@
       %div{:class => key}= value
     #header
       = render :partial => "shared/header"
-      = render :partail => "shared/signup"
-      %div
-      .content Tashe is a program specifically designed to help people keep track of a project. This program can be used for any type of projects whether it is a school project or a project for a gaint brockerage firm. Tasche is everything that you need to keep track of a problem.  
-           
-    = yield
+
+    #content
+      = yield :signup
+      = yield
     
     
     
