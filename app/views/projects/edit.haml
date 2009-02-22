@@ -1,0 +1,10 @@
+%h1
+  Editing 
+  = @project.name
+  
+.note
+  :textile
+    We are using "Textile":http://hobix.com/textile/ for formatting by default.
+    
+- form_for :project, @project, :url => project_path(@project.id), :html => {:method => :put} do |f|
+  = render :partial => "form", :locals => {:f => f}

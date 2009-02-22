@@ -1,0 +1,6 @@
+%h3= @project.name
+
+%p= textilize @project.description
+
+.edit= link_to "edit", edit_project_path(@project.id)
+.back{:onclick => "javascript:history.back()"}= link_to "back", projects_path
