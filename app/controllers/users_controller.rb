@@ -8,6 +8,17 @@ class UsersController < ApplicationController
     redirect_to root_path
   end
   
+  def update
+    user = User.find(:first, :conditions => ["id = ?", params[:id]])
+    if user.update_attributes params[:user]
+      flash[:notice] = "The profile for #{user.nickname} (id ##{user.id}) has been updated"
+      redirect_to user_path(user.id)
+    else
+      flash[:error] = "We couldn't update your user. Please try again."
+      redirect_to profile_user_path(params[:id])
+    end
+  end
+  
   private
     def try_login(current_identity_url)
       logger.debug("\t\tCurrent Identity URL: #{current_identity_url}")
