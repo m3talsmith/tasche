@@ -1,3 +1,8 @@
 .project
   .name= link_to project_summary.name, project_path(project_summary.id)
   .description= textilize truncate project_summary.description, :omission => " .. (#{link_to('more details', project_path(project_summary.id))})", :length => 14, :word_count => true
+  .users_detail
+    %h4 The following people are on this project.
+    - project.users.each do |user|
+      .user_details
+        .name= link_to user.nickname, user_path(user.id)
