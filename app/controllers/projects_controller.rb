@@ -37,6 +37,13 @@ class ProjectsController < ApplicationController
     end
    
   def destroy
-    @project = project.delete(params[:id])
+    project = Project.find(params[:id])
+    if project.destroy
+      flash[:notice] = "Your project has been destroyed"
+      redirect_to root_path
+    else
+      flash[:error] = "We couldn't destroy your project. Please try again."
+      redirect_to project_path(params[:id])
+    end
   end   
 end
