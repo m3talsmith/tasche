@@ -40,6 +40,6 @@ ActionController::Routing::Routes.draw do |map|
   end
   
 # -- General Routes -- #
-  map.root :controller => "users"
+  map.root :controller => "projects"
 
 end

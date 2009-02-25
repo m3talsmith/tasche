@@ -35,4 +35,8 @@ class ProjectsController < ApplicationController
     def find_project(id)
       Project.find(:first, :conditions => ["id = ?", id])
     end
+   
+  def destroy
+    @project = project.delete(params[:id])
+  end   
 end
