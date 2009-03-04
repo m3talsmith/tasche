@@ -1,0 +1,9 @@
+body {
+  font-family: georgia;
+  font-size: 14px; }
+
+a {
+  text-decoration: none;
+  color: #a0cdaf; }
+  a:hover {
+    color: #236071; }

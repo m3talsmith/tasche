@@ -12,7 +12,7 @@
 
 %p You may have an OpenID already! Here are a few providers that automatically create an OpenID for you:
 
-%ul
+%ul.links
   %li
     .link= link_to "#{image_tag 'misc/aol.png'} AOL", "http://www.aol.com"
     .example http://openid.aol.com/screenname
@@ -35,7 +35,7 @@
     
   %li
     .link=link_to "#{image_tag 'http://www.livejournal.com/favicon.ico'} Livejournal", "http://www.livejournal.com"
-    .example http://www.livejurnal.com
+    .example http://www.livejournal.com
     
   %li
     .link=link_to "#{image_tag 'http://www.orange.fr/favicon.ico'} Orange", "http://www.orange.fr"
@@ -63,8 +63,14 @@
 
 %p Here is are some of our favorite OpenID providers:
 
-%ul
-  %li= link_to "Yahoo", "http://www.yahoo.com"
+%ul.links
+  %li
+    .link= link_to "#{image_tag 'http://www.myopenid.com/favicon.ico'} MyOpenID", "http://myopenid.com"
+    .example http://screenname.myopenid.com
+    
+  %li
+    .link= link_to "#{image_tag 'http://www.yahoo.com/favicon.ico'} Yahoo", "http://www.yahoo.com"
+    .example http://openid.yahoo.com
   
 %h3 Information
 

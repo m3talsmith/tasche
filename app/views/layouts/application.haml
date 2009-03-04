@@ -3,18 +3,20 @@
   %head
     %title Tasche
     
-  %body
+    <!-- 960 framework: http://960.gs -->
+    = stylesheet_link_tag "960", "reset"
+    <!-- 960 framework end -->
+    
+    = stylesheet_link_tag "fonts", "layout", "menu"
+    
+  %body.container_16
       
-    #header
+    #header.grid_16
       = render :partial => "shared/header"
 
-    #content
+    #content.grid_16
       - flash.each do |key, value|
         %div{:class => key}= value
         
       = yield :signup
       = yield
-    
-    
-    
-     
