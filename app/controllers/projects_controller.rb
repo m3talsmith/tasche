@@ -31,11 +31,6 @@ class ProjectsController < ApplicationController
     end
   end
   
-  private
-    def find_project(id)
-      Project.find(:first, :conditions => ["id = ?", id])
-    end
-   
   def destroy
     project = Project.find(params[:id])
     if project.destroy
@@ -45,5 +40,10 @@ class ProjectsController < ApplicationController
       flash[:error] = "We couldn't destroy your project. Please try again."
       redirect_to project_path(params[:id])
     end
-  end   
+  end
+  
+  private
+    def find_project(id)
+      Project.find(:first, :conditions => ["id = ?", id])
+    end
 end
