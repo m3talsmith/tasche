@@ -8,6 +8,8 @@ h1 {
   position: fixed;
   height: 120px;
   top: 0px;
+  left: 50%;
+  margin-left: -470px;
   z-index: 10;
   background-color: #236071;
   opacity: 0.85;
