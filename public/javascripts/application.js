@@ -7,12 +7,9 @@ function minify_project(project_id)
 
 function minify_projects()
 {
-  $(".project").each(
-    function(i)
-    {
+  $(".project").each( function(i) {
       minify_project($(this).attr("id"));
-    }
-  );
+  });
 }
 
 function expand_project(project_id)
@@ -22,21 +19,23 @@ function expand_project(project_id)
   $(project_body).removeClass("minified");
 }
 
+function minify_class(ui, klass) {
+  $("." + ui).click( function() {
+    var parent_id = $(this).parent().attr("id");
+    if($("#" + parent_id).find("." + klass).hasClass("minified")) { expand_project(parent_id); }
+    else { minify_project(parent_id); }
+  });
+}
+
+function make_projects_minifiable()
+{
+  minify_class("header", "body");
+  minify_class("user_header", "users");
+}
+
 function init_projects()
 {
-  $(".project").each(
-    function()
-    {
-      $("#" + $(this).attr("id") + ".name").click(
-        function()
-        {
-          if($(this).hasClass("minified")) {expand_project($(this).attr("id"));}
-          else {minify_project($(this).attr("id"));}
-        }
-      );
-    }
-  );
-  
+  make_projects_minifiable();
   minify_projects();
 }
 
