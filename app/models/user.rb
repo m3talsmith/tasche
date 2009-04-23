@@ -5,4 +5,8 @@ class User < ActiveRecord::Base
   
   named_scope :active,    :conditions => {:is_active => true}
   named_scope :inactive,  :conditions => {:is_active => false}
+  
+  def tasks_by_project_id(project_id)
+    Project.find(project_id).tasks.collect {|t| t if t.users.include?(self)}.uniq.compact!
+  end
 end
