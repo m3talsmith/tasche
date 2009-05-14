@@ -39,4 +39,4 @@ function init_projects()
   minify_projects();
 }
 
-$().ready( function() {init_projects();} );
+$().ready( function() {init_projects(); init_signup_headers();} );
