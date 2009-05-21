@@ -9,8 +9,8 @@
 %br
 = f.text_area :description
 %br
-= f.label :priority
-= f.select :priority, 10.times.collect {|i| [i+1, i+1]}
+=# f.label :priority
+=# f.select :priority, 10.times.collect {|i| [i+1, i+1]}
 %br
 = hidden_field :project_id, :value => @project.id
 = f.submit

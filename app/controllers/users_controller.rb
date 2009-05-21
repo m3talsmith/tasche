@@ -19,6 +19,10 @@ class UsersController < ApplicationController
     end
   end
   
+  def show
+    @profile_user = User.find(:first, :conditions => {:id => params[:id]})
+  end
+  
   private
     def try_login(current_identity_url)
       logger.debug("\t\tCurrent Identity URL: #{current_identity_url}")

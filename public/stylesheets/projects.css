@@ -1,0 +1,10 @@
+.project {
+  margin: 1em;
+  padding-left: 20px; }
+  .project .body div {
+    margin: 1em; }
+  .project li {
+    list-style-type: disc;
+    margin: 1em;
+    padding: 1em;
+    margin-left: 2em; }
