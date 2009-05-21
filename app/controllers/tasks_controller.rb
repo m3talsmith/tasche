@@ -10,7 +10,13 @@ class TasksController < ApplicationController
     
     if task
       project.tasks << task
+      project.users << @current_user
+      project.save!
+      
       task.users << @current_user
+      task.user = @current_user
+      task.save!
+      
       flash[:notice] = "Your task was created. Now get cracking!"
       redirect_to project_path(project.id)
     else

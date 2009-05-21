@@ -1,7 +1,7 @@
 .note
   :textile
     We are using "Textile":http://hobix.com/textile/ for formatting by default.
-    
+
 = f.label :name
 = f.text_field :name
 %br
@@ -9,8 +9,12 @@
 %br
 = f.text_area :description
 %br
-=# f.label :priority
-=# f.select :priority, 10.times.collect {|i| [i+1, i+1]}
+
+- priority_values = []
+- 10.times {|i| priority_values.push [i+1, i+1]}
+
+= f.label :priority
+= f.select :priority, priority_values
 %br
 = hidden_field :project_id, :value => @project.id
 = f.submit
