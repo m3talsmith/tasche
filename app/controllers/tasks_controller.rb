@@ -10,7 +10,7 @@ class TasksController < ApplicationController
     
     if task
       project.tasks << task
-      project.users << @current_user
+      project.users << @current_user unless project.users.include?(@current_user)
       project.save!
       
       task.users << @current_user

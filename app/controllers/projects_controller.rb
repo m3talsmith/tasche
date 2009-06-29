@@ -5,7 +5,7 @@ class ProjectsController < ApplicationController
   
   def create
     project = Project.find_or_create(:name => params[:project][:name])
-    @current_user.projects << project
+    @current_user.projects << project unless @current_user.projects.include?(project)
     project.update_attributes(params[:project])
     
     flash[:notice] = "Your Project is ready for you."

@@ -1,20 +1,3 @@
-%h2= @project.name
-
-%p= textilize @project.description
-
-.edit= link_to "edit project", edit_project_path(@project.id)
-
-%h2
-  Tasks assigned to
-  = @project.name
-  
-= link_to "Create a new task", new_project_task_path(:project_id => @project.id)
-
-- unless @project.tasks.length > 0
-  There are currently no tasks assigned to this project. Please
-  = link_to "click here", new_project_task_path(:project_id => @project.id)
-  to add one.
-  
-= render :partial => "tasks/task_summary", :collection => @project.tasks
+= render :partial => "project_summary", :object => @project
 
 .back{:onclick => "javascript:history.back()"}= link_to "back", projects_path

@@ -3,8 +3,11 @@
     .name= project_summary.name
   .body
     .description= textilize truncate project_summary.description, :omission => " .. (#{link_to('more details', project_path(project_summary.id))})", :length => 14, :word_count => true
+    .actions
+      .edit= link_to "edit #{project_summary.name}", edit_project_path(project_summary.id)
+      .create= link_to "create a new task #{project_summary.name}", new_project_task_path(:project_id => project_summary.id)
     .user_header
-      .name= "view users(#{project_summary.users.length + 1})"
+      .name= "view users(#{project_summary.users.length})"
     .users
       %h4 The following people are on this project.
       - project_summary.users.each do |user|
