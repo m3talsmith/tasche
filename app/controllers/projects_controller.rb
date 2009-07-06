@@ -4,11 +4,12 @@ class ProjectsController < ApplicationController
   end
   
   def create
+    flash[:notice] = ""
     project = Project.find_or_create(:name => params[:project][:name])
-    @current_user.projects << project unless @current_user.projects.include?(project)
+    (begin @current_user.projects.find(project.id) rescue nil end) ? flash[:notice] = "Your project was updated." : @current_user.projects << project
     project.update_attributes(params[:project])
     
-    flash[:notice] = "Your Project is ready for you."
+    flash[:notice] += "Your Project is ready for you."
     redirect_to project_path(project.id)
   end
   

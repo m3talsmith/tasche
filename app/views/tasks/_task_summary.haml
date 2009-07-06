@@ -1,3 +1,5 @@
+- @project = project if project
+
 .task
   .name= link_to task_summary.name, project_task_path(:project_id => @project.id, :id => task_summary.id)
   .description= textilize truncate task_summary.description, :omission => " .. (#{link_to('more details', project_task_path(:project_id => @project.id, :id => task_summary.id))})", :length => 14, :word_count => true

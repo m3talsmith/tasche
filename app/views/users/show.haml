@@ -2,13 +2,14 @@
 
 %h2
   Current Projects that
-  = @current_user.nickname
+  = @profile_user.nickname
   is involved in
-  
-- unless @current_user.projects.length > 0
-  .notice
-    You are not involved in any projects as of yet. If you would like to be please
-    = link_to "click here", new_project_path
-    to create one.
+
+- if @profile_user.id == @current_user.id
+  - unless @profile_user.projects.length > 0
+    .notice
+      You are not involved in any projects as of yet. If you would like to be please
+      = link_to "click here", new_project_path
+      to create one.
     
-= render :partial => "projects/project_summary", :collection => @current_user.projects
+= render :partial => "projects/project_summary", :collection => @profile_user.projects
