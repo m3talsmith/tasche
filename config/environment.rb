@@ -10,7 +10,6 @@ Rails::Initializer.run do |config|
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "aws-s3", :lib => "aws/s3"
-  config.gem "authlogic"
   config.gem "haml"
   
   # Make Time.zone default to the specified zone, and make Active Record store time values
