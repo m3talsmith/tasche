@@ -1,5 +1,6 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
+  include ToolboxHelper
 
   # -- Truncate was failing in version 2.1.0 so we hacked this out
   def truncate(text, *args)

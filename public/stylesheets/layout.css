@@ -44,3 +44,19 @@ h1, h2, h3, h4, h5, h6, h7, h8 {
     width: 460px; }
   #content .login {
     text-align: right; }
+  #content #main_toolbox {
+    position: relative;
+    clear: both;
+    height: 40px;
+    width: 100%; }
+    #content #main_toolbox h1 {
+      position: relative;
+      float: left;
+      width: 400px;
+      margin: 0px;
+      padding: 0px; }
+    #content #main_toolbox .actions {
+      position: relative;
+      float: right;
+      text-align: right;
+      width: 400px; }
