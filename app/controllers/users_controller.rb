@@ -26,6 +26,7 @@ class UsersController < ApplicationController
   private
     def try_login(current_identity_url)
       logger.debug("\t\tCurrent Identity URL: #{current_identity_url}")
+      # authenticate_with_open_id(current_identity_url, {:return_to => authenticate_users_url}) do |result, identity_url|
       authenticate_with_open_id(current_identity_url) do |result, identity_url|
         logger.debug("\t\tMessage from openid provider: #{result.message}\n\t\tIdentity URL: #{identity_url}")
         if result.successful?
